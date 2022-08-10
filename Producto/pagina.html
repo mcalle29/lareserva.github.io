@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Reserva</title>
+    <link rel="shortcut icon" href="imagenes/bxs-home.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/pagina.css">
+</head>
+<body>
+<!-- header section starts      -->
+<header>
+    <a href="#" class="logo"><img src="imagenes/logo-lareserva.png"></a>
+    <nav class="navbar">
+        <a class="active" href="pagina.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+    </div>
+</header>
+<!-- header section ends-->
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="swiper-container home-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>TU FAVORITA</span>
+                    <h3>Fetuccini</h3>
+                    <p>Lomo con Fetuccini al Pesto, extraordinaria combinación.</p>
+                    <a href="productos.html" class="btn">Ordena ahora</a>
+                </div>
+                <div class="image">
+                    <img src="imagenes/slider_plato_circular1.jpeg" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Full carne</span>
+                    <h3>Pizza de pepperoni</h3>
+                    <p>Nuestra exquisita mixtura</p> 
+                    <a href="productos.html" class="btn">Ordena ahora</a>
+                </div>
+                <div class="image">
+                    <img src="imagenes/slider_plato_circular2.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nuestro especial</span>
+                    <h3>Mollejas a la parrilla</h3>
+                    <p>Siente el sabor de las brasas</p>
+                    <a href="productos.html" class="btn">Ordena ahora</a>
+                </div>
+                <div class="image">
+                    <img src="imagenes/slider_plato_circular3.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- home section ends -->
+
+<!-- about section starts  -->
+|    <section class="about-index" id="about-index">
+
+    <div class="image">
+        <img src="imagenes/establecimiento.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <span>¿POR QUÉ ESCOGERNOS?</span>
+        <h3 class="title">Creando tradición</h3>
+        <p>El restaurante La Reserva es parte de nuestro negocio familiar que hace 3 meses se ha inaugurado. Aún así, somos parte de ...</p>
+        <a href="nosotros.html" class="btn">Leer más</a>
+        <div class="icons-container">
+            <div class="icons">
+                <img src="imagenes/ícono-delivery.png" alt="">
+                <h3>Delivery rápido</h3>
+            </div>
+            <div class="icons">
+                <img src="imagenes/ícono-alimentos.png" alt="">
+                <h3>Alimentos frescos</h3>
+            </div>
+            <div class="icons">
+                <img src="imagenes/ícono-calidad.png" alt="">
+                <h3>La mejor calidad</h3>
+            </div>
+            <div class="icons">
+                <img src="imagenes/ícono-servicio.png" alt="">
+                <h3>Atención 24/7</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section ends -->
+<!-- food section starts  -->
+<section class="food" id="food">
+    <div class="heading">
+        <span>Nuestro menú</span>
+        <h3>¡Los especiales!</h3>
+    </div>
+    <div class="swiper food-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide" data-name="food-1">
+                <img src="imagenes/Comida.jpeg" alt="">
+                <h3>Roscón de res</h3>
+            <div class="price">S/.25</div>
+        </div>
+        <div class= "swiper-slide slide" data-name="food-2">
+            <img src="imagenes/Comida_2.jpeg" alt="">
+            <h3>Ceviche</h3>
+            <div class="price">$30</div>
+        </div>
+        <div class="swiper-slide slide" data-name="food-3">
+            <img src="imagenes/Comida_regional.jpeg" alt="">
+            <h3>Súper combo regional</h3>
+            <div class="price">S/.35</div>
+        </div>
+        <div class="swiper-slide slide" data-name="food-4">
+            <img src="imagenes/Comida_4.jpg" alt="">
+            <h3>Ají de gallina</h3>
+            <div class="price">S/.18</div>
+        </div>
+        <div class="swiper-slide slide" data-name="food-5">
+            <img src="imagenes/Comida_5-copia.jpg" alt="">
+            <h3>Hamburguesa</h3>
+            <div class="price">S/.9.00</div>
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</section>
+<!-- food section ends -->
+<!-- food preview section starts  -->
+<section class="food-preview-container">
+    <div id="close-preview" class="fas fa-times"></div>
+    <div class="food-preview" data-target="food-1">
+        <img src="imagenes/Comida.jpeg" alt="">
+        <h3>Roscón de res</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Carne de res, verduras y una exquisita crema.</p>
+        <div class="price">S/.25</div>
+        <a href="productos.html" class="btn">Comprar ahora</a>
+    </div>
+    <div class="food-preview" data-target="food-2">
+        <img src="imagenes/Comida_2.jpeg" alt="">
+        <h3>Ceviche</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Pescado doncella, cebolla, camote, choclo, culantro y ají.</p>
+        <div class="price">S/.30</div>
+        <a href="productos.html" class="btn">Comprar ahora</a>
+    </div>
+    <div class="food-preview" data-target="food-3">
+        <img src="imagenes/Comida_regional.jpeg" alt="">
+        <h3>Súper Combo Regional</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Tacacho con sesina, avispa juane, carne de cancho, patacones y yuca.</p>
+        <div class="price">S/35</div>
+        <a href="productos.html" class="btn">Comprar ahora</a>
+    </div>
+    <div class="food-preview" data-target="food-4">
+        <img src="imagenes/Comida_4.jpg" alt="">
+        <h3>Ají de gallina</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Gallina, huevo, aceituna, cebolla, ají escabeche, leche y galletas.</p>
+        <div class="price">S/.18</div>
+        <a href="productos.html" class="btn">Comprar ahora</a>
+    </div>
+    <div class="food-preview" data-target="food-5">
+        <img src="imagenes/Comida_5.jpg" alt="">
+        <h3>Chifa</h3>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Cebolla china, carne, sillao y arroz con verduras.</p>
+        <div class="price">S/.15</div>
+        <a href="productos.html"class="btn">Comprar ahora</a>
+    </div>
+</section>
+<!-- food preview section ends -->
+<!-- banner section starts  -->
+<section class="banner">
+
+    <div class="row-banner">
+        <div class="content">
+            <span>Promoción chocomanía</span>
+            <h3>Nutela</h3>
+            <p>con tostadas multigranos</p>
+            <a href="productos.html" class="btn">¡Llévalos ya!</a>
+        </div>
+    </div>
+
+    <div class="grid-banner">
+        <div class="grid">
+            <img src="imagenes/vinos.jpg" alt="">
+            <div class="content">
+                <span>Oferta especial</span>
+                <h3>10% de descuento</h3>
+                <a href="productos.html" class="btn">Compra ahora</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="imagenes/anuncio_lays.jpg" alt="">
+            <div class="content center">
+                <span>Pruébalos ya</span>
+                <h3>Nuevas presentaciones ;)</h3>
+                <a href="productos.html" class="btn">Compra ahora</a>
+            </div>
+        </div>
+        <div class="grid">
+            <img src="imagenes/anuncio_bebidas.jpg" alt="">
+            <div class="content center">
+                <a href="productos.html" class="btn">Compra ahora</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- banner section ends -->
+<!-- footer section starts  -->
+<section class="footer" id="contacto">
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-clock"></i>
+            <h3>Abierto</h3>
+            <p>07:00 a.m. a 11:00 p.m.</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-phone"></i>
+            <h3>Teléfonos</h3>
+            <p><a href="https://wa.me/51973973949?text=Hola,%20quiero%20ordenar">973 973 949</a></p>
+            <p><a href="https://wa.me/51973973949?text=Hola,%20quiero%20ordenar">942 817 214</a></p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-envelope"></i>
+            <h3>Email</h3>
+            <p>reservamarket@gmail.com</p>
+        </div>
+        <div class="icons">
+            <a href="https://goo.gl/maps/JsEfE3UNvU6en2r78" class="fas fa-map"></a>
+            <h3>Dirección</h3>
+            <p>Jr. Miguel Grau, Rioja - 22826</p>
+        </div>
+    </div>
+    <div class="share">
+        <a href="https://web.facebook.com/lareservarioja/?ref=page_internal" class="fab fa-facebook-f"></a>
+        <a href="https://www.instagram.com/explore/locations/311725019229865/la-reserva-i-drinks-more/" class="fab fa-instagram"></a>
+    </div>
+    <div class="credit"> Creado por <span>Mari Carmen Daga Calle</span> | todos los derechos reservados </div>
+</section>
+<!-- footer section ends  -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+<!-- custom js file link  -->
+<script src="pagina.js"></script>
+</body>
+</html>
